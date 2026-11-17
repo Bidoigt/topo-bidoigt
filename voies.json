@@ -1,0 +1,832 @@
+[
+  {
+    "id": 1,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 1,
+    "affichage": "vert",
+    "couleur": "Rose",
+    "cotation": "4B",
+    "niveau": 4
+  },
+  {
+    "id": 2,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 1,
+    "affichage": "bleu",
+    "couleur": "Jaune",
+    "cotation": "5A",
+    "niveau": 5
+  },
+  {
+    "id": 3,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 1,
+    "affichage": "bleu",
+    "couleur": "Bleue",
+    "cotation": "5C",
+    "niveau": 5
+  },
+  {
+    "id": 4,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 1,
+    "affichage": "violet",
+    "couleur": "Verte",
+    "cotation": "6A",
+    "niveau": 6
+  },
+  {
+    "id": 5,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 1,
+    "affichage": "violet",
+    "couleur": "Rose",
+    "cotation": "6B+",
+    "niveau": 6
+  },
+  {
+    "id": 6,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 1,
+    "affichage": "violet",
+    "couleur": "Azur dragon",
+    "cotation": "6C+",
+    "niveau": 6
+  },
+  {
+    "id": 7,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 2,
+    "affichage": "bleu",
+    "couleur": "Jaune",
+    "cotation": "5B+",
+    "niveau": 5
+  },
+  {
+    "id": 8,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 2,
+    "affichage": "bleu",
+    "couleur": "Grise",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 9,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 2,
+    "affichage": "violet",
+    "couleur": "Violette",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 10,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 2,
+    "affichage": "violet",
+    "couleur": "Orange",
+    "cotation": "6C",
+    "niveau": 6
+  },
+  {
+    "id": 11,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 2,
+    "affichage": "bleu",
+    "couleur": "Rouge",
+    "cotation": "6C+",
+    "niveau": 6
+  },
+  {
+    "id": 12,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 3,
+    "affichage": "bleu",
+    "couleur": "Noire",
+    "cotation": "5C",
+    "niveau": 5
+  },
+  {
+    "id": 13,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 3,
+    "affichage": "violet",
+    "couleur": "Verte",
+    "cotation": "6B+",
+    "niveau": 6
+  },
+  {
+    "id": 14,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 3,
+    "affichage": "rouge",
+    "couleur": "Bleue",
+    "cotation": "7A+",
+    "niveau": 7
+  },
+  {
+    "id": 15,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 4,
+    "affichage": "bleu",
+    "couleur": "Grise",
+    "cotation": "5B",
+    "niveau": 5
+  },
+  {
+    "id": 16,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 4,
+    "affichage": "bleu",
+    "couleur": "Jaune",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 17,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 4,
+    "affichage": "violet",
+    "couleur": "Violette",
+    "cotation": "6B+",
+    "niveau": 6
+  },
+  {
+    "id": 18,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 4,
+    "affichage": "rouge",
+    "couleur": "Rouge",
+    "cotation": "7A",
+    "niveau": 7
+  },
+  {
+    "id": 19,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 5,
+    "affichage": "bleu",
+    "couleur": "Orange",
+    "cotation": "5B",
+    "niveau": 5
+  },
+  {
+    "id": 20,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 5,
+    "affichage": "violet",
+    "couleur": "Bleue",
+    "cotation": "6A+",
+    "niveau": 6
+  },
+  {
+    "id": 21,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 5,
+    "affichage": "violet",
+    "couleur": "Saumon",
+    "cotation": "6B+",
+    "niveau": 6
+  },
+  {
+    "id": 22,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 5,
+    "affichage": "violet",
+    "couleur": "Verte",
+    "cotation": "6C",
+    "niveau": 6
+  },
+  {
+    "id": 23,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 6,
+    "affichage": "bleu",
+    "couleur": "Rose",
+    "cotation": "5B",
+    "niveau": 5
+  },
+  {
+    "id": 24,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 6,
+    "affichage": "violet",
+    "couleur": "Violette",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 25,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 6,
+    "affichage": "rouge",
+    "couleur": "Noire",
+    "cotation": "7A+",
+    "niveau": 7
+  },
+  {
+    "id": 26,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 7,
+    "affichage": "bleu",
+    "couleur": "Jaune",
+    "cotation": "5B",
+    "niveau": 5
+  },
+  {
+    "id": 27,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 7,
+    "affichage": "bleu",
+    "couleur": "Grise",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 28,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 7,
+    "affichage": "violet",
+    "couleur": "Verte fluo",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 29,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 8,
+    "affichage": "bleu",
+    "couleur": "Bleue",
+    "cotation": "5A+",
+    "niveau": 5
+  },
+  {
+    "id": 30,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 8,
+    "affichage": "bleu",
+    "couleur": "Rouge",
+    "cotation": "5B+",
+    "niveau": 5
+  },
+  {
+    "id": 31,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 8,
+    "affichage": "violet",
+    "couleur": "Rose",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 32,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 9,
+    "affichage": "vert",
+    "couleur": "Orange",
+    "cotation": "4C",
+    "niveau": 4
+  },
+  {
+    "id": 33,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 9,
+    "affichage": "bleu",
+    "couleur": "Violette",
+    "cotation": "5A",
+    "niveau": 5
+  },
+  {
+    "id": 34,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 9,
+    "affichage": "violet",
+    "couleur": "Noire",
+    "cotation": "6C+",
+    "niveau": 6
+  },
+  {
+    "id": 35,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 10,
+    "affichage": "violet",
+    "couleur": "Jaune",
+    "cotation": "6A+",
+    "niveau": 6
+  },
+  {
+    "id": 36,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 10,
+    "affichage": "violet",
+    "couleur": "Verte",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 37,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 11,
+    "affichage": "vert",
+    "couleur": "Saumon",
+    "cotation": "4C+",
+    "niveau": 4
+  },
+  {
+    "id": 38,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 11,
+    "affichage": "bleu",
+    "couleur": "Violette",
+    "cotation": "5A+",
+    "niveau": 5
+  },
+  {
+    "id": 39,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 11,
+    "affichage": "bleu",
+    "couleur": "Rose",
+    "cotation": "5B+",
+    "niveau": 5
+  },
+  {
+    "id": 40,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 11,
+    "affichage": "violet",
+    "couleur": "Noire",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 41,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 11,
+    "affichage": "violet",
+    "couleur": "Azur dragon",
+    "cotation": "6C",
+    "niveau": 6
+  },
+  {
+    "id": 42,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 11,
+    "affichage": "rouge",
+    "couleur": "Bleue",
+    "cotation": "7A+",
+    "niveau": 7
+  },
+  {
+    "id": 43,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 12,
+    "affichage": "vert",
+    "couleur": "Verte fluo",
+    "cotation": "4C+",
+    "niveau": 4
+  },
+  {
+    "id": 44,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 12,
+    "affichage": "bleu",
+    "couleur": "Rouge",
+    "cotation": "5B+",
+    "niveau": 5
+  },
+  {
+    "id": 45,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 12,
+    "affichage": "bleu",
+    "couleur": "Saumon",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 46,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 13,
+    "affichage": "bleu",
+    "couleur": "Orange",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 47,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 13,
+    "affichage": "bleu",
+    "couleur": "Bleue",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 48,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 13,
+    "affichage": "violet",
+    "couleur": "Jaune",
+    "cotation": "6A",
+    "niveau": 6
+  },
+  {
+    "id": 49,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 13,
+    "affichage": "violet",
+    "couleur": "Violette",
+    "cotation": "6A+",
+    "niveau": 6
+  },
+  {
+    "id": 50,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 14,
+    "affichage": "bleu",
+    "couleur": "Jaune",
+    "cotation": "5A+",
+    "niveau": 5
+  },
+  {
+    "id": 51,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 14,
+    "affichage": "violet",
+    "couleur": "Verte",
+    "cotation": "6B+",
+    "niveau": 6
+  },
+  {
+    "id": 52,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 14,
+    "affichage": "violet",
+    "couleur": "Noire",
+    "cotation": "6C+",
+    "niveau": 6
+  },
+  {
+    "id": 53,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 15,
+    "affichage": "vert",
+    "couleur": "Violette",
+    "cotation": "4B",
+    "niveau": 4
+  },
+  {
+    "id": 54,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 15,
+    "affichage": "bleu",
+    "couleur": "Jaune",
+    "cotation": "5B+",
+    "niveau": 5
+  },
+  {
+    "id": 55,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 15,
+    "affichage": "violet",
+    "couleur": "Rose",
+    "cotation": "6A",
+    "niveau": 6
+  },
+  {
+    "id": 56,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 15,
+    "affichage": "rouge",
+    "couleur": "Bleue",
+    "cotation": "7A",
+    "niveau": 7
+  },
+  {
+    "id": 57,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 16,
+    "affichage": "vert",
+    "couleur": "Rouge",
+    "cotation": "4C",
+    "niveau": 4
+  },
+  {
+    "id": 58,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 16,
+    "affichage": "bleu",
+    "couleur": "Verte",
+    "cotation": "5A+",
+    "niveau": 5
+  },
+  {
+    "id": 59,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 16,
+    "affichage": "bleu",
+    "couleur": "Blanche",
+    "cotation": "5C",
+    "niveau": 5
+  },
+  {
+    "id": 60,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 16,
+    "affichage": "violet",
+    "couleur": "Noire",
+    "cotation": "6A",
+    "niveau": 6
+  },
+  {
+    "id": 61,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 16,
+    "affichage": "violet",
+    "couleur": "Orange",
+    "cotation": "6A",
+    "niveau": 6
+  },
+  {
+    "id": 62,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 17,
+    "affichage": "vert",
+    "couleur": "Bleue",
+    "cotation": "4B",
+    "niveau": 4
+  },
+  {
+    "id": 63,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 17,
+    "affichage": "bleu",
+    "couleur": "Rose",
+    "cotation": "5B",
+    "niveau": 5
+  },
+  {
+    "id": 64,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 17,
+    "affichage": "violet",
+    "couleur": "Jaune",
+    "cotation": "6A+",
+    "niveau": 6
+  },
+  {
+    "id": 65,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 18,
+    "affichage": "bleu",
+    "couleur": "Violette",
+    "cotation": "5A",
+    "niveau": 5
+  },
+  {
+    "id": 66,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 18,
+    "affichage": "bleu",
+    "couleur": "Noire",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 67,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 18,
+    "affichage": "violet",
+    "couleur": "Azur dragon",
+    "cotation": "6B+",
+    "niveau": 6
+  },
+  {
+    "id": 68,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 19,
+    "affichage": "vert",
+    "couleur": "Jaune",
+    "cotation": "4C",
+    "niveau": 4
+  },
+  {
+    "id": 69,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 19,
+    "affichage": "violet",
+    "couleur": "Rose",
+    "cotation": "6C",
+    "niveau": 6
+  },
+  {
+    "id": 70,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 20,
+    "affichage": "bleu",
+    "couleur": "Blanche",
+    "cotation": "5A",
+    "niveau": 5
+  },
+  {
+    "id": 71,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 20,
+    "affichage": "bleu",
+    "couleur": "Bleue",
+    "cotation": "5B",
+    "niveau": 5
+  },
+  {
+    "id": 72,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 20,
+    "affichage": "bleu",
+    "couleur": "Verte fluo",
+    "cotation": "5C+",
+    "niveau": 5
+  },
+  {
+    "id": 73,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 20,
+    "affichage": "violet",
+    "couleur": "Rouge",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 74,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 21,
+    "affichage": "vert",
+    "couleur": "Orange",
+    "cotation": "4A+",
+    "niveau": 4
+  },
+  {
+    "id": 75,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 21,
+    "affichage": "vert",
+    "couleur": "Violette",
+    "cotation": "4C",
+    "niveau": 4
+  },
+  {
+    "id": 76,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 21,
+    "affichage": "violet",
+    "couleur": "Noire",
+    "cotation": "6A+",
+    "niveau": 6
+  },
+  {
+    "id": 77,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 22,
+    "affichage": "vert",
+    "couleur": "Verte",
+    "cotation": "4A",
+    "niveau": 4
+  },
+  {
+    "id": 78,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 22,
+    "affichage": "bleu",
+    "couleur": "Jaune",
+    "cotation": "5A",
+    "niveau": 5
+  },
+  {
+    "id": 79,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 22,
+    "affichage": "bleu",
+    "couleur": "Grise",
+    "cotation": "5A",
+    "niveau": 5
+  },
+  {
+    "id": 80,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 22,
+    "affichage": "violet",
+    "couleur": "Bleue",
+    "cotation": "6A",
+    "niveau": 6
+  },
+  {
+    "id": 81,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 23,
+    "affichage": "bleu",
+    "couleur": "Saumon",
+    "cotation": "5C",
+    "niveau": 5
+  },
+  {
+    "id": 82,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 23,
+    "affichage": "violet",
+    "couleur": "Rose",
+    "cotation": "6B",
+    "niveau": 6
+  },
+  {
+    "id": 83,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 24,
+    "affichage": "vert",
+    "couleur": "Bleue",
+    "cotation": "4B",
+    "niveau": 4
+  }
+]
