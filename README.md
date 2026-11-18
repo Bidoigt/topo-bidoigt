@@ -1,39 +1,19 @@
-# Topo Bidoigt — PWA V1
+# Topo Bidoigt — PWA V1.1
 
-## Fonctionnalités
-- 83 voies chargées depuis `voies.json`
-- filtres par niveau, ligne et suivi personnel
-- fiche voie : Moulinette, En tête, commentaire
-- sauvegarde locale dans le navigateur (`localStorage`)
-- export/import du carnet personnel en JSON
-- installation sur l'écran d'accueil
-- fonctionnement hors ligne après la première ouverture
+## Nouveautés
+- logo du club dans la bannière ;
+- icônes Android et Apple issues du logo haute définition ;
+- bande gauche basée sur `affichage` ;
+- prise colorée basée sur `couleur`, avec contour sombre ;
+- indicateurs Commentaire / M / T dans trois colonnes fixes ;
+- badges M et T de 30 px ;
+- case `Enchaînée ?`, disponible uniquement si `En tête` est cochée ;
+- couronne vert fluo autour du badge T pour les voies enchaînées ;
+- filtre `Enchaînées`.
 
-## Tester sur un ordinateur
-Le fichier `voies.json` doit être servi par HTTP. Ne pas ouvrir `index.html` directement.
+## Mise à jour GitHub Pages
+Remplacer les fichiers de la V1 par tous les fichiers de ce dossier, à la racine du même dépôt. Conserver la même URL.
 
-Avec Python installé :
+La clé locale reste `topo-bidoigt-carnet-v1` : les coches et commentaires existants sont conservés. Les anciens enregistrements sont interprétés avec `enchainee: false`.
 
-    python -m http.server 8080
-
-Puis ouvrir `http://localhost:8080`.
-
-## Publier gratuitement
-### GitHub Pages
-1. Créer un dépôt public GitHub.
-2. Déposer tous les fichiers de ce dossier à la racine.
-3. Dans Settings > Pages, choisir Deploy from a branch, branche `main`, dossier `/root`.
-4. Communiquer l'adresse HTTPS générée aux adhérents.
-
-### Installation utilisateur
-- Android/Chrome : ouvrir l'adresse puis utiliser `Installer l'application` ou `Ajouter à l'écran d'accueil`.
-- iPhone/Safari : bouton Partager puis `Sur l'écran d'accueil`.
-
-## Données et mises à jour
-- `voies.json` contient le topo commun.
-- `localStorage` contient uniquement le suivi personnel sur chaque appareil.
-- Une mise à jour du topo ne remplace pas le suivi local tant que les ID des voies restent stables.
-- Pour forcer la mise à jour hors ligne après modification des fichiers, changer `topo-bidoigt-v1` en `topo-bidoigt-v2` dans `service-worker.js`.
-
-## Limite importante
-Effacer les données du navigateur ou désinstaller la PWA peut supprimer le carnet local. Utiliser régulièrement `Exporter ma sauvegarde`.
+Après publication, fermer puis rouvrir la PWA. Si l'ancienne version reste affichée, actualiser la page une fois dans le navigateur ; le cache passe à `topo-bidoigt-v1.1`.
