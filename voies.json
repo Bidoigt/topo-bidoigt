@@ -828,5 +828,15 @@
     "couleur": "Bleue",
     "cotation": "4B",
     "niveau": 4
+  },
+  {
+    "id": 84,
+    "active": true,
+    "lieu": "Cassin",
+    "ligne": 1,
+    "affichage": "violet",
+    "couleur": "Noire",
+    "cotation": "6a+",
+    "niveau": 6
   }
 ]
