@@ -57,12 +57,14 @@
       <div id="detailMeta" class="detail-meta"></div>
       <fieldset>
         <legend>Ma réalisation</legend>
-        <label class="check-row"><input id="moulinetteInput" type="checkbox"> <span>En moulinette</span></label>
-        <div class="head-checks">
-          <label class="check-row"><input id="teteInput" type="checkbox"> <span>En tête</span></label>
-          <label id="enchaineeLabel" class="check-row chained"><input id="enchaineeInput" type="checkbox" disabled> <span>Enchaînée ?</span></label>
+        <div class="mode-checks">
+          <label class="check-row"><input id="moulinetteInput" type="checkbox"> <span>En moulinette</span></label>
+          <label class="check-row chained"><input id="enchaineeMoulinetteInput" type="checkbox" disabled> <span>Enchaînée ?</span></label>
         </div>
-        <p id="enchaineeHelp" class="field-help">Disponible lorsque « En tête » est cochée.</p>
+        <div class="mode-checks">
+          <label class="check-row"><input id="teteInput" type="checkbox"> <span>En tête</span></label>
+          <label class="check-row chained"><input id="enchaineeTeteInput" type="checkbox" disabled> <span>Enchaînée ?</span></label>
+        </div>
       </fieldset>
       <label class="comment-label">Commentaire personnel
         <textarea id="commentInput" rows="5" maxlength="1000" placeholder="Passage clé, ressenti technique, point à retravailler…"></textarea>

@@ -1,33 +1,21 @@
-# MAJ PWA V1.1.1
-
-# 
-
-* ajout voie noire manquante dans fichier .json, id84 ;
-* MAJ nom du cache dans service-worker.js, nouveau nom=topo-bidoigt-v1.1.1 ;
-
-
-
-# 
-
-# Topo Bidoigt — PWA V1.1
+# Topo Bidoigt — PWA V1.2
 
 ## Nouveautés
+- option « Enchaînée ? » à droite de « En moulinette » ;
+- option disponible uniquement lorsque « En moulinette » est cochée ;
+- désactivation et décochage automatiques lorsque « En moulinette » est décochée ;
+- couronne vert fluo autour du badge M lorsqu'une voie est enchaînée en moulinette ;
+- fonctionnement symétrique conservé pour « En tête » ;
+- suppression du texte d'aide sous les cases pour gagner de la place ;
+- migration automatique de l'ancien champ `enchainee` vers `enchaineeTete`.
 
-* logo du club dans la bannière ;
-* icônes Android et Apple issues du logo haute définition ;
-* bande gauche basée sur `affichage` ;
-* prise colorée basée sur `couleur`, avec contour sombre ;
-* indicateurs Commentaire / M / T dans trois colonnes fixes ;
-* badges M et T de 30 px ;
-* case `Enchaînée ?`, disponible uniquement si `En tête` est cochée ;
-* couronne vert fluo autour du badge T pour les voies enchaînées ;
-* filtre `Enchaînées`.
+## Fichiers à publier
+Pour passer de V1.1 à V1.2, remplacer à la racine du dépôt GitHub :
+- `index.html`
+- `app.js`
+- `styles.css`
+- `service-worker.js`
 
-## Mise à jour GitHub Pages
+Ne remplacez pas votre `voies.json` actuel avec celui de cette archive si vous avez déjà ajouté une nouvelle voie directement sur GitHub.
 
-Remplacer les fichiers de la V1 par tous les fichiers de ce dossier, à la racine du même dépôt. Conserver la même URL.
-
-La clé locale reste `topo-bidoigt-carnet-v1` : les coches et commentaires existants sont conservés. Les anciens enregistrements sont interprétés avec `enchainee: false`.
-
-Après publication, fermer puis rouvrir la PWA. Si l'ancienne version reste affichée, actualiser la page une fois dans le navigateur ; le cache passe à `topo-bidoigt-v1.1`.
-
+La clé locale reste `topo-bidoigt-carnet-v1`, ce qui conserve les données personnelles existantes. Le cache technique passe à `topo-bidoigt-v1.2`.
